@@ -15,10 +15,10 @@ import {
   import { NextPageContext } from 'next';
   import { useRouter } from 'next/router';
   import React, { useEffect } from 'react';
-  import Navbar from '../../../common/Navbar';
-  import { useAuth } from '../../../lib/auth';
-  import { getSingleQuiz } from '../../../utils/db';
-  import { addAnswerApi } from '../../../utils/service';
+  import Navbar from '../../common/Navbar';
+  import { useAuth } from '../../lib/auth';
+  import { getSingleQuiz } from '../../utils/db';
+  import { addAnswerApi } from '../../utils/service';
   
   const ShowQuiz = (quiz, onSubmit) => {
     return (
